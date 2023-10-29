@@ -1,0 +1,117 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% comment %} <title>Welcome to IEEE CS Website</title> {% endcomment %}
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="{% static 'main/images/logos/ieee_cs_spit_logo.png' %}" alt="IEEE CS SPIT Logo">
+            <img src="{% static 'main/images/logos/college_logo.png' %}" alt="College Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#membership">Membership Benefits</a></li>
+                <li><a href="#events">Upcoming Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Welcome to IEEE Computer Society SPIT</h1>
+    <p>Advancing technology for the benefit of humanity</p>
+    <a href="#about" class="cta-button">Learn More</a>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>The IEEE Computer Society at SPIT focuses on empowering college students with technical excellence and knowledge sharing in computer science. We accomplish this through engaging coding contests and insightful speaker sessions, providing valuable opportunities for skill development and staying updated with industry trends</p>
+    </section>
+
+    <section id="membership">
+        <h2>Membership Benefits</h2>
+        <ul>
+            <li>Access to cutting-edge research and publications</li>
+            <li>Networking opportunities with industry experts</li>
+            <li>Discounts on conferences and events</li>
+            <li>And much more!</li>
+        </ul>
+        <a href="https://www.computer.org/membership" class="cta-button" target="_blank">Join Now</a>
+    </section>
+    <section id="Team">
+        <h2>Our Team</h2>
+        <ul>
+            <li>
+                <img src="{% static 'main/images/team/tanmay.jpg' %}" alt="Tanmay Waddelwar">
+                Tanmay Waddelwar - Chairperson
+            </li>
+            <li>
+                <img src="{% static 'main/images/team/kris.jpg' %}" alt="Kris Dcosta">
+                Kris Dcosta - Vice-Chairperson
+            </li>
+            <li>
+                <img src="{% static 'main/images/team/akshata.jpg' %}" alt="Akshata Kumar">
+                Akshata Kumar - Head of Events
+            </li>
+            <li>
+                <img src="{% static 'main/images/team/bodhisatya.jpg' %}" alt="Bodhisatya Ghosh">
+                Bodhisatya Ghosh - Head of Operations
+            </li>
+            <li>
+                <img src="{% static 'main/images/team/parnika.jpg' %}" alt="Parnika Das">
+                Parnika Das - Head of Creatives
+            </li>
+            <li>
+                <img src="{% static 'main/images/team/omkar.jpg' %}" alt="Omkar Yadav">
+                Omkar Yadav - Finance Head
+            </li>
+            <li>
+                <img src="{% static 'main/images/team/vedant.jpg' %}" alt="Vedant Deshmukh">
+                Vedant Deshmukh - Technical Head
+            </li>
+            <li>
+                <img src="{% static 'main/images/team/aroosh.jpg' %}" alt="Aroosh Joshi">
+                Aroosh Joshi - Deputy Technical Head
+            </li>
+            <li>
+                <img src="{% static 'main/images/team/soham.jpg' %}" alt="Soham Karmarkar">
+                Soham Karmarkar - Head of PR
+            </li>
+            <li>
+                <img src="{% static 'main/images/team/roshani.jpg' %}" alt="Roshani Patel">
+                Roshani Patel - Head of Marketing
+            </li>
+            <li>
+                <img src="{% static 'main/images/team/prathamesh.jpg' %}" alt="Prathamesh Kulkarni">
+                Prathamesh Kulkarni - Secretary
+            </li>
+            <li>
+                <img src="{% static 'main/images/team/aryan.jpg' %}" alt="Aryan Adav">
+                Aryan Adav - Head of Special Events
+            </li>
+        </ul>
+    </section>
+    
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li>Webinar: "AI and Ethics" - November 5, 2023</li>
+            <li>Conference: "Advancements in Cybersecurity" - November 12-14, 2023</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 IEEE Computer Society. All rights reserved.</p>
+        <ul class="social-icons">
+            <li><a href="https://www.instagram.com/ieee.cs.spit/" target="_blank"><img src="{% static 'main/images/logos/instagram-icon.png' %}" alt="Instagram"></a></li>
+            <li><a href="https://www.linkedin.com/company/87455398" target="_blank"><img src="{% static 'main/images/logos/linkedin-icon.png' %}" alt="LinkedIn"></a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
